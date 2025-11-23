@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dana Rabinovich - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 
     <link href = "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 </head>
@@ -21,24 +21,132 @@
         </nav>
     </header>
 
-    <section class = "hero">
-        <div class = "hero-text">
-
-            <h2 class = "hero-title">
-                Hols, soy <span>Dana Rabinovich</span>
-            </h2>
-
-            <p class = "hero-subtitle">
-                Estudiante de último año de secundaria en la orientación TIC y futura estudiante de la carrera Administración de Empresas en la Universidad Torcuato Di Tella.
-            </p>
+    <section class = "inicio" id="inicio">
+        <h1>Hola, soy <span>Dana Rabinovich</span></h1>
+        <p class = "descripcion">
+            Estudiante de último año de secundaria en la orientación TIC y futura estudiante de la carrera Administración de Empresas en la Universidad Torcuato Di Tella.
+        </p>
             
-            <div class = "botones">
-                <a class= "btn-proy" href="#">Ver proyectos</a>
-                <a class= "btn-cont" href="#">Contacto</a>
+        <div class = "botones">
+            <a class= "btn-proy" href="#proyectos">Ver proyectos</a>
+            <a class= "btn-cont" href="#contacto">Contacto</a>
+        </div>
+    </div>
+
+    <div class= "flecha-abajo">↓</div>
+ </section>
+
+ <section class = "sobre mi" id="sobre-mi">
+    <h2>Sobre mí</h2>
+    
+    <div class= "sobre-grid">
+        <div class = "texto">
+            <p> Mi nombre es Dana Rabinovich. Actualmente estoy cursando mi último año de la secundariaen la <a href="#">Escuela ORT Belgrano</a>, orientación <a href="#">TIC</a>.
+                En 2026 comienzo la carrera de <a href="#">Administración de Empresas en la Universidad Torcuato Di Tella</a>.
+            </p>
+
+            <p>Durante mis años en TIC realicé <a href="#">tres proyectos tecnológicos vinculados a la medicina</a>,donde me encargué del <a href="#">diseño web</a> utilizando Figma.
+            </p>
+
+            <p>En 2023 realicé un viaje de estudios a Londres para perfeccionar mi inglés, y obtuve mi <a href="#">certificado en B2 (Cambridge First Certificate)</a>.
+            </p>
+
+            <p>Algunos de mis intereses personales son el deporte, practico tenis y gimnasio.
+            </p>
+        </div>
+
+        <div class= "cards">
+            <div class="card">
+                <h4>Educacion</h4>
+                <ul>
+                    <li>Escuela ORT Belgrano - TIC</li>
+                    <li>UTDT 2026 - Admin. de Empresas</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h4>Idiomas</h4>
+                <ul>
+                    <li>Español</li>
+                    <li>Inglés - B2 (Cambridge First Certificate)</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h4>Intereses</h4>
+                <ul>
+                    <li>Tenis</li>
+                    <li>Gimnasio</li>
+                    <li>Viajar</li>
+                </ul>
+            </div>
+
+            <div class="card">
+                <h4>Ubicación</h4>
+                <ul>
+                    <li>Buenos Aires</li>
+                    <li>Argentina</li>
+                </ul>
             </div>
         </div>
 
-        <div class= "arrow">↓</div>
-    </section>
-</body>
-</html>
+    </div>
+</section>
+
+<section class = "proyectos" id="proyectos">
+    <h2>Proyectos</h2>
+
+    <div class = "proyecto">
+        <img src="Frame 13.png" class="logo.SD">
+            <h3>Salud Digital</h3>
+            <span class = "rol">Rol: Diseño UX/UI</span>
+            <p>Historial clínico digital que permite a médicos almacenar datos de pacientes. También permite la creación de PDF para optimizar las consultas
+            </p>
+        </div>
+        <span class= "año">2023</span>
+
+    <div class="proyecto">
+        <img src="Frame 12-2.png" class="logo.MoSc">
+            <h3>MoleScanner</h3>
+            <span class = "rol">Rol: Diseño UX/UI</span>
+            <p>Detector de melanoma mediante IA. Mediante una foto del lunar subida por el usuario, la web analiza y le indica al usuario la probabilidad de ser maligno.
+            </p>
+        </div>
+        <span class= "año">2024</span>
+
+    <div class="proyecto">
+        <img src="Frame 21.png" class="logo.Proy3">
+            <h3>SepsIA</h3>
+            <span class = "rol">Rol: Diseño UX/UI</span>
+            <p>Detector de probabilidad de sepsis mediante IA. Mediante datos del paciente cargados por el médico nuestra IA analiza y muestra la probabilidad que tiene el paciente a tener una septicemia.
+            </p>
+        </div>
+        <span class= "año">2025</span>
+    </div>
+
+</section>
+<section class="contacto" id="contacto">
+    <h2>Contacto</h2>
+    
+    <div class="contact-carousel">
+        <button class="carousel-btn left" onclick="mover(-1)">←</button>
+
+        <div class="carousel-wrapper">
+            <div class="carousel" id="carousel">
+                <div class="slide">
+                    <h3>Email</h3>
+                    <p>danitarabinovich@gmail.com</p>
+                </div>
+                <div class="slide">
+                    <h3>Instagram</h3>
+                    <p>@danarabinovich</p>
+            </div>
+                <div class="slide">
+                    <h3>Whatsapp</h3>
+                    <p>+54 9 11 XXXXXXXX</p>
+                </div>
+        </div>
+    </div>
+    <button class="carousel-btn right" onclick="mover(1)">→</button>
+</div>
+</section>
