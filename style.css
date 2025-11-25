@@ -346,26 +346,26 @@ section {
 
 .contact {
   background-color: white;
-  padding: 20px 0; 
+  padding: 40px 0; 
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
 
 .contact .container {
-  width: 90%; 
+width: 90%; 
   max-width: 1200px; 
   margin: 0 auto; 
-  text-align: left; 
+  text-align: left;
 }
 
 .carousel-container {
   position: relative;
   width: 90%; 
   max-width: 650px; 
-  margin: 0 auto;  
+  margin: 0 auto; 
   overflow: hidden; 
-  margin-top: 20px;  
+  margin-top: 20px; 
 }
 
 .carousel-track {
@@ -381,7 +381,7 @@ section {
 
 .card {
   width: 100%;
-  padding: 50px;
+  padding: 60px; 
   background: white;
   border-radius: 20px;
   box-shadow: 0 5px 25px rgba(0,0,0,0.1);
@@ -394,25 +394,26 @@ section {
 }
 
 .arrow {
-position: absolute;
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   width: 40px; 
   height: 40px; 
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.9); 
-  border: 1px solid #bbb; 
-  color: #333; 
-  font-size: 20px; 
-  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
+  border-radius: 0; 
+  background: none; 
+  border: none;
+  cursor: pointer;
+  font-size: 32px; 
+  color: #3333ff; 
+  box-shadow: none; 
   z-index: 10;
 }
 
 .left { 
-    left: 10px; 
+    left: 50px; 
 } 
 .right { 
-    right: 10px; 
+    right: 50px; 
 }
 
 .contact .container {
@@ -423,6 +424,6 @@ position: absolute;
 }
 
 .section-title {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   text-align: left;
 }
