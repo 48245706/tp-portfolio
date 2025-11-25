@@ -161,44 +161,43 @@
       </section>
 
       <section id="contacto" class="contact">
-        <div class="container">
-          <h2 class="section-title">Contacto</h2>
+            <div class="container">
+                <h2 class="section-title">Contacto</h2> <div class="carousel-container">
+                    <button class="arrow left" onclick="moveSlide(-1)">&#10094;</button>
 
-          <div class="carousel">
-            <button class="carousel-btn carousel-prev" aria-label="Anterior">
-              <img src = "flecha izq.png" alt="Flecha izquierda" width="40" height="40"/>
-            </button>
+                    <div class="carousel-track">
+                        
+                        <div class="slide">
+                            <div class="card">
+                                <img src="Vector-2.png" alt="Icono de Email" class="Email" />
+                                <h3>Email</h3>
+                                <p>danarabinovich@gmail.com</p>
+                            </div>
+                        </div>
 
-            <div class="carousel-content">
-              <div class="carousel-slide active">
-                <div class="contact-card">
-                  <div class="contact-icon">
-                    <img src="mdi_instagram.png" alt="Instagram" width="80" height="80"/>
-                  </div>
-                  <h3 class="contact-title">Instagram</h3>
-                  <p class="contact-detail">@danarabinovich</p>
+                        <div class="slide">
+                            <div class="card">
+                                <img src="mdi_instagram.png" alt="Icono de Instagram" class="Instagram" />
+                                <h3>Instagram</h3>
+                                <p>@danarabinovich</p>
+                            </div>
+                        </div>
+
+                        <div class="slide">
+                            <div class="card">
+                                <img src="mdi_instagram-2.png" alt="Icono de Whatsapp" class="Whatsapp" />
+                                <h3>Whatsapp</h3>
+                                <p>+54 9 11 1234 5678</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="arrow right" onclick="moveSlide(1)">&#10095;</button>
                 </div>
-              </div>
 
-              <div class="carousel-slide">
-                <div class="contact-card">
-                  <div class="contact-icon">
-                  <img src="Vector-2.png" alt="Email" width="80" height="80"/>
-                  </div>
-                  <h3 class="contact-title">Email</h3>
-                  <p class="contact-detail">danitarabinovich@gmail.com</p>
                 </div>
-              </div>
-            </div>
-
-            <button class="carousel-btn carousel-next" aria-label="Siguiente">
-              <img src="flecha der.png" alt="Flecha derecha" width="40" height="40"/>
-            </button>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <script type="module" src="carousel.js"></script>
+        </section> </main> <script src="carousel.js"></script>
   </body>
 </html>
+
