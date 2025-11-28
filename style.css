@@ -34,14 +34,14 @@ header {
 nav {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 1.5rem 2rem;
+  padding: 24px 32px; 
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .nav-brand h1 {
-  font-size: 1.5rem;
+  font-size: 24px; 
   font-weight: 700;
   color: #1a1a1a;
 }
@@ -49,13 +49,13 @@ nav {
 .nav-menu {
   display: flex;
   list-style: none;
-  gap: 2rem;
+  gap: 32px; 
 }
 
 .nav-menu a {
   text-decoration: none;
   color: #666;
-  font-size: 1rem;
+  font-size: 16px; 
   font-weight: 400;
   transition: color 0.3s;
   position: relative;
@@ -72,7 +72,7 @@ nav {
 .nav-menu a.active::after {
   content: '';
   position: absolute;
-  bottom: -8px;
+  bottom: -8px; 
   left: 0;
   right: 0;
   height: 3px;
@@ -86,12 +86,12 @@ main {
 .container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 32px; 
 }
 
 section {
   min-height: calc(100vh - 80px);
-  padding: 4rem 0;
+  padding: 64px 0; 
 }
 
 .hero {
@@ -105,42 +105,43 @@ section {
 }
 
 .hero-content {
-  max-width: 800px;
-  padding: 0 2rem;
+  max-width: 1000px; 
+  padding: 0 32px; 
   margin-left: 0;
 }
 
 .hero-title {
-  font-size: 4rem;
+  font-size: 88px; 
   font-weight: 700;
-  line-height: 1.2;
-  margin-bottom: 1.5rem;
+  line-height: 1.1;
+  margin-bottom: 24px; 
   color: #1a1a1a;
 }
 
 .hero-title .highlight {
   color: #0066ff;
+  white-space: nowrap;
 }
 
 .hero-description {
-  font-size: 1.25rem;
+  font-size: 20px; 
   line-height: 1.8;
   color: #666;
-  margin-bottom: 2.5rem;
+  margin-bottom: 40px; 
   max-width: 700px;
 }
 
 .hero-buttons {
   display: flex;
-  gap: 1rem;
+  gap: 16px; 
 }
 
 .btn {
-  padding: 0.875rem 2rem;
+  padding: 14px 32px; 
   border-radius: 8px;
   text-decoration: none;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 16px; 
   transition: all 0.3s;
   cursor: pointer;
   border: none;
@@ -169,7 +170,7 @@ section {
 
 .scroll-indicator {
   position: absolute;
-  bottom: 2rem;
+  bottom: 32px; 
   left: 50%;
   transform: translateX(-50%);
   color: #999;
@@ -193,27 +194,27 @@ section {
 }
 
 .section-title {
-  font-size: 3rem;
+  font-size: 48px; 
   font-weight: 700;
-  margin-bottom: 3rem;
+  margin-bottom: 48px; 
   color: #1a1a1a;
 }
 
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 64px; 
   align-items: start;
 }
 
 .about-text {
-  font-size: 1.125rem;
+  font-size: 18px; 
   line-height: 1.8;
   color: #666;
 }
 
 .about-text p {
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px; 
 }
 
 .text-link {
@@ -229,14 +230,14 @@ section {
 .about-cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 1.5rem;
+  gap: 24px; 
 }
 
 .info-card {
   background-color: white;
   border: 1px solid #e5e5e5;
   border-radius: 12px;
-  padding: 2.5rem;
+  padding: 40px; 
 }
 
 .card-icon {
@@ -246,20 +247,19 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px; 
 }
 
 .info-card h3 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
+  font-size: 24px; 
+  margin-bottom: 16px; 
   color: #1a1a1a;
 }
 
 .card-list {
   list-style: none;
   color: #666;
-  font-size: 1.05rem;
+  font-size: 17px; 
   line-height: 2;
 }
 
@@ -279,10 +279,10 @@ section {
   background-color: white;
   border: 1px solid #e5e5e5;
   border-radius: 16px;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  padding: 32px; 
+  margin-bottom: 32px; 
   display: flex;
-  gap: 2rem;
+  gap: 32px; 
   align-items: center;
 }
 
@@ -312,17 +312,17 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 8px; 
 }
 
 .project-header h3 {
-  font-size: 1.75rem;
+  font-size: 28px; 
   font-weight: 700;
   color: #1a1a1a;
 }
 
 .project-year {
-  font-size: 1rem;
+  font-size: 16px; 
   color: #999;
   font-weight: 400;
 }
@@ -331,16 +331,16 @@ section {
   display: inline-block;
   background-color: #e8f2ff;
   color: #0066ff;
-  padding: 0.25rem 0.75rem;
+  padding: 4px 12px; 
   border-radius: 6px;
-  font-size: 0.875rem;
+  font-size: 14px; 
   font-weight: 500;
-  margin-bottom: 1rem;
+  margin-bottom: 16px; 
 }
 
 .project-description {
   color: #666;
-  font-size: 1rem;
+  font-size: 16px; 
   line-height: 1.8;
 }
 
@@ -353,7 +353,7 @@ section {
 }
 
 .contact .container {
-width: 90%; 
+  width: 90%; 
   max-width: 1200px; 
   margin: 0 auto; 
   text-align: left;
@@ -361,31 +361,35 @@ width: 90%;
 
 .carousel-container {
   position: relative;
+  padding: 40px 60px; 
   width: 90%; 
-  max-width: 650px; 
-  margin: 0 auto; 
-  overflow: hidden; 
-  margin-top: 20px; 
+  max-width: 700px; 
+  margin: 0 auto;
+  overflow: hidden;  
+  margin-top: 20px;
 }
 
 .carousel-track {
   display: flex;
   transition: transform 0.4s ease-in-out;
+  width: 100%;
 }
 
 .slide {
   min-width: 100%;   
   display: flex;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .card {
   width: 100%;
-  padding: 60px; 
+  padding: 60px 80px; 
   background: white;
   border-radius: 20px;
   box-shadow: 0 5px 25px rgba(0,0,0,0.1);
   text-align: center;
+  box-sizing: border-box;
 }
 
 .card img {
@@ -410,10 +414,10 @@ width: 90%;
 }
 
 .left { 
-    left: 50px; 
+    left: 10px; 
 } 
 .right { 
-    right: 50px; 
+    right: 10px; 
 }
 
 .contact .container {
